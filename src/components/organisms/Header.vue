@@ -23,6 +23,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+
 .dummy {
     width: 100%;
     height: 116px;
@@ -30,9 +31,8 @@ export default {
 .headerWrapper {
     display:flex;
     justify-content: space-between;
-    padding: 0 50px;
     position: fixed;
-    width:100%;
+    width:95%;
     background-color: #fff;
     opacity: 0.9;
     z-index:99999999;f
