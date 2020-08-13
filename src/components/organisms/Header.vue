@@ -32,14 +32,19 @@ export default {
     display:flex;
     justify-content: space-between;
     position: fixed;
-    width:95%;
+    width:100vw;
     background-color: #fff;
     opacity: 0.9;
-    z-index:99999999;f
+    z-index:99999999;
+    padding-left: 30px;
 
     &__logo {
         display: flex;
         align-items: center;
+    }
+
+    &__menu {
+        padding-right: 60px;
     }
 }
 </style>
